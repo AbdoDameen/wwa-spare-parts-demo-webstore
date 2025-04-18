@@ -182,7 +182,7 @@ Key tables:
 php vendor/bin/phpunit
 
 # Run integration tests
-php vendor/bin/phpunit --testsuite integration
+php vendor/bin/phpunit --testsuite integration.
 ```
 
 ## Performance Optimization
