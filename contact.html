@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Spare Parts - Worldwide Appliance</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+     <header>
+         <div class="header-container">
+            <div class="header-title">
+                <h1>Worldwide Appliance - Spare Parts</h1>
+            </div>
+            <div class="header-search">
+                <input type="search" placeholder="Search by Model or Part Number..." aria-label="Search Spare Parts">
+                <button type="submit">Search</button>
+                <!-- Search results dropdown will be appended here by JS -->
+            </div>
+            <div class="header-cart">
+                <!-- Standard Cart Structure from index.html -->
+                <span class="cart-icon"></span>
+                <span class="cart-count">0</span>
+                <div class="cart-dropdown">
+                    <div class="cart-items">
+                        <div class="empty-cart">Your cart is empty</div>
+                    </div>
+                    <div class="cart-total">
+                        <span>Total:</span>
+                        <span class="amount">$0.00</span>
+                    </div>
+                    <div class="cart-buttons">
+                        <button class="checkout">Checkout</button>
+                        <button class="clear">Clear Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#brands">Brands</a></li>
+            <li><a href="support.html">Support</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <main>
+            <h2>Contact Spare Parts Team</h2> <!-- Clarified title -->
+            <p class="page-description">Have a question about a spare part or need assistance? Fill out the form below and we'll get back to you.</p>
+
+            <!-- Removed modern-form class and enctype -->
+            <form class="contact-form" action="#" method="POST">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name" class="required-field">Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="e.g., John Smith" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone" class="required-field">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="e.g., 0411 987 654" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="email" class="required-field">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="e.g., john.smith@email.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="brand">Brand (if applicable)</label> <!-- Made optional -->
+                    <select id="brand" name="brand">
+                        <option value="" disabled selected>-- Select the brand (optional) --</option>
+                        <option value="artusi">Artusi</option>
+                        <option value="everdure">Everdure</option>
+                        <option value="everdure_hb">Everdure by Heston Blumenthal</option>
+                        <option value="fhiaba">Fhiaba</option>
+                        <option value="fulgor">Fulgor</option>
+                        <option value="fulgor_milano">Fulgor Milano</option>
+                        <option value="omega_altise">Omega Altise</option>
+                        <option value="robinhood">Robinhood</option>
+                        <option value="steel">Steel</option>
+                        <option value="not_sure">Not Sure / General Inquiry</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="model">Model Number (if applicable)</label> <!-- Made optional -->
+                    <input type="text" id="model" name="model" placeholder="e.g., ADW7003X (if known)">
+                </div>
+
+                <div class="form-group">
+                    <label for="message" class="required-field">Your Message / Question</label> <!-- Changed label -->
+                    <textarea id="message" name="message" rows="6" placeholder="Please describe the part you need or your question..." required></textarea> <!-- Changed ID/name -->
+                </div>
+
+                <button type="submit" class="submit-button">Send Message</button> <!-- Changed button text -->
+            </form>
+        </main>
+    </div>
+    <footer>
+         <!-- Standard Footer Content -->
+         <p>© 2024 Worldwide Appliance. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </footer>
+</body>
+</html>

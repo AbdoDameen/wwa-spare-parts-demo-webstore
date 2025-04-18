@@ -1,0 +1,504 @@
+{
+    "models": [
+        {
+            "id": "ADW7003X",
+            "brand": "Artusi",
+            "name": "Dishwasher",
+            "url": "model_artusi_adw7003x.html"
+        },
+        {
+            "id": "CAFG90X",
+            "brand": "Artusi",
+            "name": "Freestanding Cooker",
+            "url": "model_artusi_cafg90x.html"
+        },
+        {
+            "id": "E4TS",
+            "brand": "Everdure",
+            "name": "BBQ",
+            "url": "model_everdure_e4ts.html"
+        },
+        {
+            "id": "EKILN2S",
+            "brand": "Everdure",
+            "name": "Built-in Oven",
+            "url": "model_everdure_ekiln2s.html"
+        },
+        {
+            "id": "E3G1OA",
+            "brand": "Everdure by Heston Blumenthal",
+            "name": "FURNACE™ BBQ",
+            "url": "model_everdure_by_heston_blumenthal_e3g1oa.html"
+        },
+        {
+            "id": "HBCE2BB",
+            "brand": "Everdure by Heston Blumenthal",
+            "name": "CUBE™ BBQ",
+            "url": "model_everdure_by_heston_blumenthal_hbce2bb.html"
+        },
+        {
+            "id": "KS7490FZ6IA",
+            "brand": "Fhiaba",
+            "name": "Integrated Freezer",
+            "url": "model_fhiaba_ks7490fz6ia.html"
+        },
+        {
+            "id": "KS8990TSTI6",
+            "brand": "Fhiaba",
+            "name": "Integrated Refrigerator",
+            "url": "model_fhiaba_ks8990tsti6.html"
+        },
+        {
+            "id": "FDW8000X",
+            "brand": "Fulgor",
+            "name": "Dishwasher",
+            "url": "model_fulgor_fdw8000x.html"
+        },
+        {
+            "id": "FUM90",
+            "brand": "Fulgor",
+            "name": "Rangehood",
+            "url": "model_fulgor_fum90.html"
+        },
+        {
+            "id": "FUTMO4510TEMBK",
+            "brand": "Fulgor Milano",
+            "name": "Microwave Oven",
+            "url": "model_fulgor_milano_futmo_4510_tem_mbk.html"
+        },
+        {
+            "id": "FUTSO4510TEMBK",
+            "brand": "Fulgor Milano",
+            "name": "Steam Oven",
+            "url": "model_fulgor_milano_futso_4510_tem_mbk.html"
+        },
+        {
+            "id": "OAFH2000W",
+            "brand": "Omega Altise",
+            "name": "Fan Heater",
+            "url": "model_omega_altise_oafh2000w.html"
+        },
+        {
+            "id": "OAPC26W",
+            "brand": "Omega Altise",
+            "name": "Portable Air Conditioner",
+            "url": "model_omega_altise_oapc26w.html"
+        },
+        {
+            "id": "RLES61SSWH",
+            "brand": "Robinhood",
+            "name": "Slideout Rangehood",
+            "url": "model_robinhood_rles61ss_wh.html"
+        },
+        {
+            "id": "AKL70",
+            "brand": "Steel",
+            "name": "Cooktop",
+            "url": "model_steel_akl70.html"
+        },
+        {
+            "id": "GQ7S4",
+            "brand": "Steel",
+            "name": "Range Cooker",
+            "url": "model_steel_gq7s_4.html"
+        }
+    ],
+    "parts": [
+        {
+            "number": "ART-KNB001",
+            "name": "Oven Thermostat Knob",
+            "modelId": "CAFG90X",
+            "searchTerms": ["knob", "thermostat", "control"]
+        },
+        {
+            "number": "ART-GKT720",
+            "name": "Oven Door Seal Gasket",
+            "modelId": "CAFG90X",
+            "searchTerms": ["door", "seal", "gasket"]
+        },
+        {
+            "number": "ART-IGN330",
+            "name": "Ignition Spark Electrode",
+            "modelId": "CAFG90X",
+            "searchTerms": ["ignition", "spark", "electrode"]
+        },
+        {
+            "number": "EBH-GRLCUBE",
+            "name": "Chrome Cooking Grill",
+            "modelId": "HBCE2BB",
+            "searchTerms": ["grill", "chrome", "cooking"]
+        },
+        {
+            "number": "EBH-TRYCUBE",
+            "name": "Charcoal Tray Insert",
+            "modelId": "HBCE2BB",
+            "searchTerms": ["tray", "charcoal", "insert"]
+        },
+        {
+            "number": "EBH-LIDCUBE",
+            "name": "Storage Tray/Cutting Board Lid",
+            "modelId": "HBCE2BB",
+            "searchTerms": ["lid", "tray", "cutting board"]
+        },
+        {
+            "number": "EVD-VALKILN",
+            "name": "Gas Control Valve",
+            "modelId": "EKILN2S",
+            "searchTerms": ["valve", "gas", "control"]
+        },
+        {
+            "number": "EVD-GRLKILN",
+            "name": "Front Grille Panel",
+            "modelId": "EKILN2S",
+            "searchTerms": ["grille", "panel", "front"]
+        },
+        {
+            "number": "FHI-ICE74F",
+            "name": "Ice Maker Assembly",
+            "modelId": "KS7490FZ6IA",
+            "searchTerms": ["ice maker", "assembly"]
+        },
+        {
+            "number": "FHI-GSK74F",
+            "name": "Door Gasket Seal",
+            "modelId": "KS7490FZ6IA",
+            "searchTerms": ["gasket", "seal", "door"]
+        },
+        {
+            "number": "FHI-BIN74F",
+            "name": "Freezer Drawer Bin",
+            "modelId": "KS7490FZ6IA",
+            "searchTerms": ["bin", "drawer", "freezer"]
+        },
+        {
+            "number": "FHI-SEN74F",
+            "name": "Temperature Sensor",
+            "modelId": "KS7490FZ6IA",
+            "searchTerms": ["sensor", "temperature"]
+        },
+        {
+            "number": "FHI-GSK8990",
+            "name": "Door Gasket Seal",
+            "modelId": "KS8990TSTI6",
+            "searchTerms": ["gasket", "seal", "door"]
+        },
+        {
+            "number": "FHI-SHF8990G",
+            "name": "Glass Shelf",
+            "modelId": "KS8990TSTI6",
+            "searchTerms": ["shelf", "glass"]
+        },
+        {
+            "number": "FHI-WFC89",
+            "name": "Water Filter Cartridge",
+            "modelId": "KS8990TSTI6",
+            "searchTerms": ["filter", "water", "cartridge"]
+        },
+        {
+            "number": "FHI-LED89",
+            "name": "LED Interior Light Module",
+            "modelId": "KS8990TSTI6",
+            "searchTerms": ["led", "light", "interior"]
+        },
+        {
+            "number": "FUL-BSK80C",
+            "name": "Cutlery Basket",
+            "modelId": "FDW8000X",
+            "searchTerms": ["basket", "cutlery"]
+        },
+        {
+            "number": "FUL-PMP80D",
+            "name": "Drain Pump Assembly",
+            "modelId": "FDW8000X",
+            "searchTerms": ["pump", "drain", "assembly"]
+        },
+        {
+            "number": "FUL-FLT90",
+            "name": "Aluminium Grease Filter",
+            "modelId": "FUM90",
+            "searchTerms": ["filter", "grease", "aluminium"]
+        },
+        {
+            "number": "FUL-SWB90",
+            "name": "Push Button Switch Block",
+            "modelId": "FUM90",
+            "searchTerms": ["switch", "button", "block"]
+        },
+        {
+            "number": "FMI-PLT45MO",
+            "name": "Glass Turntable Plate",
+            "modelId": "FUTMO4510TEMBK",
+            "searchTerms": ["plate", "turntable", "glass"]
+        },
+        {
+            "number": "FMI-ROL45MO",
+            "name": "Turntable Roller Ring",
+            "modelId": "FUTMO4510TEMBK",
+            "searchTerms": ["roller", "ring", "turntable"]
+        },
+        {
+            "number": "FMI-TNK45SO",
+            "name": "Water Tank Reservoir",
+            "modelId": "FUTSO4510TEMBK",
+            "searchTerms": ["tank", "water", "reservoir"]
+        },
+        {
+            "number": "FMI-GSK45SO",
+            "name": "Oven Door Seal Gasket",
+            "modelId": "FUTSO4510TEMBK",
+            "searchTerms": ["gasket", "seal", "door"]
+        },
+        {
+            "number": "OAL-REM26",
+            "name": "Remote Control Unit",
+            "modelId": "OAPC26W",
+            "searchTerms": ["remote", "control"]
+        },
+        {
+            "number": "OAL-HOS26",
+            "name": "Window Exhaust Hose",
+            "modelId": "OAPC26W",
+            "searchTerms": ["hose", "exhaust", "window"]
+        },
+        {
+            "number": "OAL-ELM20",
+            "name": "Heating Element",
+            "modelId": "OAFH2000W",
+            "searchTerms": ["element", "heating"]
+        },
+        {
+            "number": "STL-IGN700",
+            "name": "Ignition Module",
+            "modelId": "GQ7S4",
+            "searchTerms": ["ignition", "module"]
+        },
+        {
+            "number": "ART-BRN505L",
+            "name": "Gas Burner Cap - Large",
+            "modelId": "CAFG90X",
+            "searchTerms": ["burner", "cap", "gas", "large"]
+        },
+        {
+            "number": "ART-SHF112", 
+            "name": "Oven Wire Shelf Rack",
+            "modelId": "CAFG90X",
+            "searchTerms": ["shelf", "rack", "wire", "oven"]
+        },
+        {
+            "number": "EVD-IGNKILN",
+            "name": "Igniter Button Assembly",
+            "modelId": "EKILN2S",
+            "searchTerms": ["igniter", "button", "assembly"]
+        },
+        {
+            "number": "EVD-TILKILN",
+            "name": "Ceramic Burner Tile",
+            "modelId": "EKILN2S",
+            "searchTerms": ["burner", "ceramic", "tile"]
+        },
+        {
+            "number": "EVD-BRN4TS",
+            "name": "Stainless Steel Burner Tube",
+            "modelId": "E4TS",
+            "searchTerms": ["burner", "tube", "stainless"]
+        },
+        {
+            "number": "EVD-GRL4TS",
+            "name": "Cast Iron Cooking Grill",
+            "modelId": "E4TS",
+            "searchTerms": ["grill", "cast iron", "cooking"]
+        },
+        {
+            "number": "EVD-WRK4TS",
+            "name": "Warming Rack",
+            "modelId": "E4TS",
+            "searchTerms": ["rack", "warming"]
+        },
+        {
+            "number": "EVD-KNB4TS",
+            "name": "Control Knob",
+            "modelId": "E4TS",
+            "searchTerms": ["knob", "control"]
+        },
+        {
+            "number": "EBH-GRLFURC",
+            "name": "Enamel Coated Cast Iron Grill",
+            "modelId": "E3G1OA",
+            "searchTerms": ["grill", "cast iron", "enamel"]
+        },
+        {
+            "number": "EBH-BRNFUR",
+            "name": "Burner Tube Assembly",
+            "modelId": "E3G1OA",
+            "searchTerms": ["burner", "tube", "assembly"]
+        },
+        {
+            "number": "EBH-IGNFUR",
+            "name": "Igniter Module",
+            "modelId": "E3G1OA",
+            "searchTerms": ["igniter", "module"]
+        },
+        {
+            "number": "EBH-GAUFUR",
+            "name": "Temperature Gauge",
+            "modelId": "E3G1OA",
+            "searchTerms": ["temperature", "gauge"]
+        },
+        {
+            "number": "EBH-HNDCUBE",
+            "name": "Handle Set",
+            "modelId": "HBCE2BB",
+            "searchTerms": ["handle", "set"]
+        },
+        {
+            "number": "FUL-SPR80L",
+            "name": "Lower Spray Arm",
+            "modelId": "FDW8000X",
+            "searchTerms": ["spray", "arm", "lower"]
+        },
+        {
+            "number": "FUL-WHL80U",
+            "name": "Upper Basket Wheel Kit",
+            "modelId": "FDW8000X",
+            "searchTerms": ["wheel", "basket", "upper"]
+        },
+        {
+            "number": "FUL-LGT90LED",
+            "name": "LED Light Strip",
+            "modelId": "FUM90",
+            "searchTerms": ["light", "led", "strip"]
+        },
+        {
+            "number": "FUL-MOT90U",
+            "name": "Motor Assembly",
+            "modelId": "FUM90",
+            "searchTerms": ["motor", "assembly"]
+        },
+        {
+            "number": "FMI-LCH45MO",
+            "name": "Microwave Door Latch Hook",
+            "modelId": "FUTMO4510TEMBK",
+            "searchTerms": ["latch", "door", "hook"]
+        },
+        {
+            "number": "FMI-MAG45MO",
+            "name": "Magnetron",
+            "modelId": "FUTMO4510TEMBK",
+            "searchTerms": ["magnetron"]
+        },
+        {
+            "number": "FMI-TRY45SP",
+            "name": "Perforated Steam Tray",
+            "modelId": "FUTSO4510TEMBK",
+            "searchTerms": ["tray", "steam", "perforated"]
+        },
+        {
+            "number": "FMI-STM45SO",
+            "name": "Steam Generator Unit",
+            "modelId": "FUTSO4510TEMBK",
+            "searchTerms": ["steam", "generator"]
+        },
+        {
+            "number": "OAL-WINKIT26",
+            "name": "Window Slider Kit",
+            "modelId": "OAPC26W",
+            "searchTerms": ["window", "slider", "kit"]
+        },
+        {
+            "number": "OAL-FIL26",
+            "name": "Air Filter",
+            "modelId": "OAPC26W",
+            "searchTerms": ["filter", "air"]
+        },
+        {
+            "number": "OAL-KNB20T",
+            "name": "Thermostat Control Knob",
+            "modelId": "OAFH2000W",
+            "searchTerms": ["knob", "control", "thermostat"]
+        },
+        {
+            "number": "OAL-FAN20",
+            "name": "Fan Blade Assembly",
+            "modelId": "OAFH2000W",
+            "searchTerms": ["fan", "blade", "assembly"]
+        },
+        {
+            "number": "OAL-CRD20",
+            "name": "Power Cord",
+            "modelId": "OAFH2000W",
+            "searchTerms": ["cord", "power"]
+        },
+        {
+            "number": "ROB-FIL61A",
+            "name": "Aluminium Filter",
+            "modelId": "RLES61SSWH", 
+            "searchTerms": ["filter", "aluminium"]
+        },
+        {
+            "number": "ROB-LGT61INC",
+            "name": "Light Bulb",
+            "modelId": "RLES61SSWH",
+            "searchTerms": ["light", "bulb", "incandescent"]
+        },
+        {
+            "number": "ROB-SWT61SL",
+            "name": "Slide Switch Assembly",
+            "modelId": "RLES61SSWH",
+            "searchTerms": ["switch", "slide", "assembly"]
+        },
+        {
+            "number": "ROB-MOT61SL",
+            "name": "Motor Unit",
+            "modelId": "RLES61SSWH",
+            "searchTerms": ["motor", "unit"]
+        },
+        {
+            "number": "STL-FIL70B",
+            "name": "Baffle Filter",
+            "modelId": "AKL70",
+            "searchTerms": ["filter", "baffle"]
+        },
+        {
+            "number": "STL-LGT70LED",
+            "name": "LED Light Module",
+            "modelId": "AKL70",
+            "searchTerms": ["light", "led", "module"]
+        },
+        {
+            "number": "STL-SWP70",
+            "name": "Control Switch Panel",
+            "modelId": "AKL70",
+            "searchTerms": ["switch", "panel", "control"]
+        },
+        {
+            "number": "STL-MOT18",
+            "name": "Fan Motor Assembly",
+            "modelId": "AKL70",
+            "searchTerms": ["motor", "fan", "assembly"]
+        },
+        {
+            "number": "STL-KNB701",
+            "name": "Oven Control Knob",
+            "modelId": "GQ7S4",
+            "searchTerms": ["knob", "control", "oven"]
+        },
+        {
+            "number": "STL-BRN7WK",
+            "name": "Wok Burner Ring",
+            "modelId": "GQ7S4",
+            "searchTerms": ["burner", "wok", "ring"]
+        },
+        {
+            "number": "STL-GKT700",
+            "name": "Oven Door Seal",
+            "modelId": "GQ7S4",
+            "searchTerms": ["seal", "door", "oven"]
+        },
+        {
+            "number": "STL-THM700",
+            "name": "Oven Thermostat",
+            "modelId": "GQ7S4",
+            "searchTerms": ["thermostat", "oven"]
+        }
+    ]
+}

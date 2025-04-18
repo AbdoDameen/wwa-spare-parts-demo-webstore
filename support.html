@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support & Warranty - Worldwide Appliance</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+         <div class="header-container">
+            <div class="header-title">
+                <h1>Worldwide Appliance - Spare Parts</h1>
+            </div>
+            <div class="header-search">
+                <input type="search" placeholder="Search by Model or Part Number..." aria-label="Search Spare Parts">
+                <button type="submit">Search</button>
+                <!-- Search results dropdown will be appended here by JS -->
+            </div>
+            <div class="header-cart">
+                <!-- Standard Cart Structure from index.html -->
+                <span class="cart-icon"></span>
+                <span class="cart-count">0</span>
+                <div class="cart-dropdown">
+                    <div class="cart-items">
+                        <div class="empty-cart">Your cart is empty</div>
+                    </div>
+                    <div class="cart-total">
+                        <span>Total:</span>
+                        <span class="amount">$0.00</span>
+                    </div>
+                    <div class="cart-buttons">
+                        <button class="checkout">Checkout</button>
+                        <button class="clear">Clear Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#brands">Brands</a></li>
+            <li><a href="support.html" class="active">Support</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <main>
+            <h2>Support & Warranty Claim</h2> <!-- Slightly more specific title -->
+            <p class="page-description">Need help with your appliance? Please provide your purchase information and details about the issue below.</p>
+
+            <!-- Removed modern-form class -->
+            <form class="support-form" action="#" method="POST" enctype="multipart/form-data">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name" class="required-field">Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="e.g., Jane Doe" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone" class="required-field">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="e.g., 0400 123 456" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="email" class="required-field">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="e.g., jane.doe@email.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="brand" class="required-field">Brand</label>
+                    <select id="brand" name="brand" required>
+                        <option value="" disabled selected>-- Please select the brand --</option> <!-- Improved default option -->
+                        <option value="artusi">Artusi</option>
+                        <option value="everdure">Everdure</option>
+                        <option value="everdure_hb">Everdure by Heston Blumenthal</option>
+                        <option value="fhiaba">Fhiaba</option>
+                        <option value="fulgor">Fulgor</option>
+                        <option value="fulgor_milano">Fulgor Milano</option>
+                        <option value="omega_altise">Omega Altise</option>
+                        <option value="robinhood">Robinhood</option>
+                        <option value="steel">Steel</option>
+                         <option value="other">Other/Not Sure</option> <!-- Added option -->
+                    </select>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="model" class="required-field">Model Number</label>
+                        <input type="text" id="model" name="model" placeholder="Find this on your appliance sticker" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="purchase-date" class="required-field">Approximate Purchase Date</label>
+                        <input type="date" id="purchase-date" name="purchase-date" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="proof-purchase" class="required-field">Proof of Purchase (PDF, JPG, PNG)</label>
+                    <input type="file" id="proof-purchase" name="proof-purchase" accept=".pdf,.jpg,.jpeg,.png" required>
+                     <small style="display: block; margin-top: 5px; color: #aaa;">Max file size: 5MB</small> <!-- Added hint -->
+                </div>
+
+                <div class="form-group">
+                    <label for="supporting-docs">Supporting Documents/Photos of Issue (Optional)</label>
+                    <input type="file" id="supporting-docs" name="supporting-docs[]" accept=".pdf,.jpg,.jpeg,.png" multiple> <!-- Added [] for multiple files PHP convention -->
+                     <small style="display: block; margin-top: 5px; color: #aaa;">You can select multiple files. Max size per file: 5MB</small> <!-- Added hint -->
+                </div>
+
+                <div class="form-group">
+                    <label for="description" class="required-field">Description of Issue</label>
+                    <textarea id="description" name="description" rows="5" placeholder="Please describe the problem in detail..." required></textarea>
+                </div>
+
+                <button type="submit" class="submit-button">Submit Support Request</button>
+            </form>
+        </main>
+    </div>
+    <footer>
+         <!-- Standard Footer Content -->
+         <p>© 2024 Worldwide Appliance. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </footer>
+</body>
+</html>

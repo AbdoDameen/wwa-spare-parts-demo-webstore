@@ -1,0 +1,42 @@
+/worldwide-appliance-spare-parts/
+|-- index.html                  (Landing Page)
+|-- brand_artusi.html
+|-- brand_everdure.html
+|-- brand_everdure_by_heston_blumenthal.html
+|-- brand_fhiaba.html
+|-- brand_fulgor.html
+|-- brand_fulgor_milano.html
+|-- brand_omega_altise.html
+|-- brand_robinhood.html
+|-- brand_steel.html
+|-- model_artusi_adw7003x.html
+|-- model_artusi_cafg90x.html
+|-- model_everdure_e4ts.html
+|-- model_everdure_ekiln2s.html
+|-- model_everdure_by_heston_blumenthal_e3g1oa.html
+|-- model_everdure_by_heston_blumenthal_hbce2bb.html
+|-- model_fhiaba_ks7490fz6ia.html
+|-- model_fhiaba_ks8990tsti6.html
+|-- model_fulgor_fdw8000x.html
+|-- model_fulgor_fum90.html
+|-- model_fulgor_milano_futmo_4510_tem_mbk.html
+|-- model_fulgor_milano_futso_4510_tem_mbk.html
+|-- model_omega_altise_oafh2000w.html
+|-- model_omega_altise_oapc26w.html
+|-- model_robinhood_ic1300.html
+|-- model_robinhood_rles61ss_wh.html
+|-- model_steel_akl70.html
+|-- model_steel_gq7s_4.html
+|-- style.css                   (Styles - Provided in previous response)
+|-- README.md                   (Instructions - Provided below)
+|-- /images/                    (<<< YOUR LOGOS/PHOTOS GO HERE)
+|   |-- logo_artusi.png
+|   |-- logo_fhiaba.png
+|   |-- ... (etc.)
+|   |-- model_artusi_adw7003x.jpg
+|   |-- model_artusi_cafg90x.jpg
+|   |-- ... (etc.)
+|-- /diagrams/                  (<<< YOUR PDFs GO HERE)
+|   |-- diagram_artusi_adw7003x.pdf
+|   |-- diagram_artusi_cafg90x.pdf
+|   |-- ... (etc.)
